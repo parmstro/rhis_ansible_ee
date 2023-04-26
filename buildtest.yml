@@ -1,0 +1,14 @@
+# This play tests if the custom execution environment can talk to a 
+# satellite server with our custom certificate ca.crt as provided in the context 
+# directory 
+---
+- hosts: localhost
+  connection: local
+
+  tasks:
+    - name: Ensure that we can connect with SSL cert
+      get_url:
+        url: "https://sat6.parmstrong.ca/users/login"
+        dest: "/tmp/foo.txt"
+        username: admin
+        password: "#Legend2013"

@@ -1,0 +1,14 @@
+---
+collections:
+  - ansible.netcommon
+  - ansible.posix
+  - ansible.utils
+  - ansible.windows
+  - ansible.controller
+  - redhat.rhel_idm
+  - redhat.satellite
+  - redhat.satellite_operations
+  - redhat.rhel_system_roles
+  - redhat.insights
+  - azure.azcollection
+  - community.vmware
