@@ -4,4 +4,5 @@ ansible.cfg
 TestBuilderExecutionEnvironment.txt
 collections/*
 artifacts/*
-context/*
+context/_build/*
+context/ca.crt
