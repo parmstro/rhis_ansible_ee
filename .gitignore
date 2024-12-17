@@ -1,4 +1,5 @@
 ## 
+*.vscode
 auth.json
 ansible.cfg
 TestBuilderExecutionEnvironment.txt
